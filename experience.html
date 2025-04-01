@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Deshna Nagar</title>
+    <style>
+        /* Import Apple Font */
+        @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;700&display=swap');
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'SF Pro Display', sans-serif;
+        }
+
+        /* Background */
+        body {
+            background: linear-gradient(to bottom right, #f3e5f5, #d1c4e9);
+            color: #1d1d1f;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #d6d6d6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav a.logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1d1d1f;
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #1d1d1f;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #0071e3;
+        }
+
+        /* Page Header */
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 36px;
+        }
+
+        /* Experience Section */
+        .experience-container {
+            max-width: 900px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Experience Card */
+        .experience-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .experience-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .experience-card h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #0071e3;
+        }
+
+        .experience-card p {
+            font-size: 16px;
+            margin-top: 5px;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html" class="logo">Deshna Nagar</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <h1>Professional Experience</h1>
+
+    <!-- Experience Cards -->
+    <div class="experience-container">
+
+        <div class="experience-card">
+            <h2>Counselor Trainee - Centre Volunteers in Medicine</h2>
+            <p>Provided counseling services, facilitated mental health programs, and worked with diverse clients to enhance well-being.</p>
+        </div>
+
+        <div class="experience-card">
+            <h2>Counselor Trainee - Herr Clinic</h2>
+            <p>Gained practical experience in counseling, focusing on individualized interventions and mental health support.</p>
+        </div>
+
+        <div class="experience-card">
+            <h2>Group Facilitator - Centre County Correctional Facility</h2>
+            <p>Led groups for incarcerated individuals, covering job readiness, advocacy, and professional skill-building.</p>
+        </div>
+
+        <div class="experience-card">
+            <h2>Educator - India</h2>
+            <p>Developed educational modules tailored to diverse student learning needs, ensuring accessibility and inclusivity.</p>
+        </div>
+
+        <div class="experience-card">
+            <h2>Mindfulness & ACT Instructor</h2>
+            <p>Taught mindfulness and Acceptance & Commitment Therapy (ACT) techniques to adolescents to manage anxiety effectively.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
